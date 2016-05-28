@@ -1,6 +1,6 @@
 ![TS Image Description](http://i.imgur.com/QUObsec.png "TS Image Title") 
  
-**IRCTC Guide. **
+_IRCTC Guides._
 
 This app teaches the user of latest services/facilities provided by IRCTC.
 
