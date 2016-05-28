@@ -19,7 +19,7 @@
             android:layout_height="wrap_content"
             android:textSize="23sp"
             android:background="?attr/selectableItemBackground"
-            android:text="Guide Title"/>
+            android:text="@string/guide_title"/>
 
         <TextView
             android:id="@+id/guide_sub_title"
@@ -27,7 +27,7 @@
             android:layout_height="wrap_content"
             android:textSize="16sp"
             android:layout_below="@id/guide_title"
-            android:text="Guide subtitle"
+            android:text="@string/guide_subtitle"
             android:paddingTop="10dp"
             android:paddingBottom="10dp"
             android:maxLines="2"
@@ -53,7 +53,7 @@
             android:layout_marginTop="8sp"
             android:layout_alignParentEnd="true"
             android:textSize="18sp"
-            android:text="VIEW"
+            android:text="@string/view_btn_text"
             android:layout_alignParentRight="true" />
 
     </RelativeLayout>

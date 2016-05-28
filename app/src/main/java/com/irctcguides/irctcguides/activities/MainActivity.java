@@ -43,7 +43,7 @@ public class MainActivity extends MasterActivity {
                             .setAction("Action", null).show();
                     return;
                 }
-                dialPhoneNumber("011 3934 0000");
+                dialPhoneNumber(getString(R.string.irctc_phone));
 
             }
         });
