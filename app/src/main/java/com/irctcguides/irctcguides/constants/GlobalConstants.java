@@ -134,7 +134,7 @@ public class GlobalConstants {
                         "2. Confirmed Tatkal ticket if passenger Not travelled<br>" +
                         "3. If cases not received within 30 days from Date of Journey.<br>" +
                         "4. Partially travelled Claim (Short of booked destination) in Rajdhani/Shatabadi/Jan Shatabadi Exp. <br><br>"+
-                        "<strong>Instruction for customer for geting refund on i-tickets are:-</strong><br>" +
+                        "<strong>Instruction for customer for getting refund on i-tickets are:</strong><br>" +
                         "1. Surrender the I-Ticket with the Station Master and obtain a Ticket Deposit Receipt (TDR).<br>" +
                         "2. Send claim for refund to the following address attaching the original TDR to:<br>" +
                         "&nbsp;&nbsp;G&nbsp;eneral Manager (Operations),<br>" +
