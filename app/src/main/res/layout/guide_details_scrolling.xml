@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_guide_details"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.irctcguides.irctcguides.activities.GuideDetailsActivity">
+
+        <ImageView
+            android:id="@+id/guide_details_img"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/irctc" />
+
+        <TextView
+            android:id="@+id/guide_details_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/guide_details_img"
+            android:padding="10dp"
+            android:text="Guide Title"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/guide_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/guide_details_title"
+            android:padding="10dp"
+            android:text="Guide subtitle"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+</ScrollView>
+
