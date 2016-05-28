@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.Html;
+import android.text.method.LinkMovementMethod;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -27,6 +28,8 @@ public class GuideDetailsActivity extends MasterActivity {
 
         setTitle("IRCTC - How to..?");
         guideTitle.setText(guide.title);
+
+        guideTitle.setMovementMethod(LinkMovementMethod.getInstance());
         guideContent.setText(Html.fromHtml(guide.content));
 
         int resourceImage = this.getResources().getIdentifier(guide.image, "drawable", this.getPackageName());

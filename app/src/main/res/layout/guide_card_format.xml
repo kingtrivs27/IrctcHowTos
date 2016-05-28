@@ -11,12 +11,14 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackground"
         android:padding="10dp">
         <TextView
             android:id="@+id/guide_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="23sp"
+            android:background="?attr/selectableItemBackground"
             android:text="Guide Title"/>
 
         <TextView
@@ -29,7 +31,10 @@
             android:paddingTop="10dp"
             android:paddingBottom="10dp"
             android:maxLines="2"
-            android:ellipsize="end" />
+            android:ellipsize="end"
+            android:autoLink="web"
+            android:linksClickable="true"
+            />
 
         <View
             android:id="@+id/act_divider"
@@ -43,7 +48,7 @@
             android:layout_width="70sp"
             android:layout_height="32sp"
             android:layout_below="@id/act_divider"
-            android:background="@drawable/my_button_bg"
+            android:background="@drawable/ripple_effect"
             android:textColor="@color/colorAccentGuides"
             android:layout_marginTop="8sp"
             android:layout_alignParentEnd="true"

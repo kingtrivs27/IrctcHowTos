@@ -25,14 +25,14 @@ public class GlobalConstants {
                         1,
                         "Tatkal Ticket Booking",
                         "tatkal",
-                        "The Tatkal Scheme is an Indian Railways scheme for booking journeys at very short notice. It was introduced by the then railway minister Nitish Kumar in all forms of reserved class in almost all the Mail/ Express trains in India. These tickets can be booked over counter and on the internet. Tatkal Booking starts one day in advance (reduced from 2 days) excluding the day of journey e.g. for a journey on 3rd, bookings would open at 10 am on 2nd. However, the day of journey is defined as the day of chart preparation.<br>"+
+                        "The Tatkal Scheme is an Indian Railways scheme for booking journeys at very short notice. It was introduced by the then railway minister Nitish Kumar in all forms of reserved class in almost all the Mail/ Express trains in India. These tickets can be booked over counter and on the internet. Tatkal Booking starts one day in advance (reduced from 2 days) excluding the day of journey e.g. for a journey on 3rd, bookings would open at 10 am on 2nd. However, the day of journey is defined as the day of chart preparation.<br><br>"+
                         "<strong>How to do Tatkal Ticket Booking?</strong><br>"+
                         "• Click on Plan My Journey page.<br>" +
                         "• If the From/To station selected by you are correct in the route of the train then select Date of Journey.<br>" +
                         "• Select Ticket Type as e-ticket.<br>" +
                         "• Then Click on Submit button.<br>" +
                         "• The Advance Reservation Period (ARP) of Tatkal scheme is reduced from two days to one day excluding the day of journey from the train originating station. For example, if train is to depart from the originating station on the second of the month, the Tatkal quota booking for that particular train will open at 10:00 hrs on the first of the month from originating station.<br>"+
-                        "<br><strong>TIPS:</strong><br>"+
+                        "<br><strong>Tatkal Ticket Booking Tips:</strong><br>"+
                         "• Create more than one credentials for logging on to irctc website. If you have only one login details, borrow one from your friend or family. Trying to book ticket parallely using multiple browser/computer always increases chances of getting a tatkal ticket. DO NOT use same irctc login details on multiple browsers simultaneously as irctc can detect it and log you out from all sessions.<br>" +
                         "• Make sure tatkal quota for your journey opens one day in advance. It might open two or more days in advance, if the train reaches your boarding station on second or more days of its running. For example, if you want to book tatkal ticket from Nagpur to chennai in Chennai Rajdhani Express (12434), the tatkal booking opens 2 days in advance in this case from your journey date as the train reaches Nagpur on 2nd day of running.<br>" +
                         "• Keep Id card details such as PAN card or driving license of one of the passengers handy. This way you do not have to search for it after you have started the booking process.<br>" +
@@ -54,7 +54,7 @@ public class GlobalConstants {
                         1,
                         "Setting up destination alert",
                         "alert",
-                        "Destination Alert is a facility to get a wake-up call on your mobile from a call centre of the Indian Railway Catering and Tourism Corporation (IRCTC), half-an-hour before the scheduled arrival at your station.<br>"+
+                        "Destination Alert is a facility to get a wake-up call on your mobile from a call centre of the Indian Railway Catering and Tourism Corporation (IRCTC), half-an-hour before the scheduled arrival at your station.<br><br>"+
                         "<strong>How to set destination alert?</strong><br>"+
                         "• Dial 139 from the Mobile you want you want to set Destination Alert<br>" +
                         "• Choose your preferred language<br>" +
@@ -69,9 +69,10 @@ public class GlobalConstants {
         guideList.add(
                 new Guide(
                         1,
-                        "Order Food via IRCTC while travelling.",
+                        "Order Food through IRCTC while travelling.",
                         "catering",
-                        "e-catering service has been started by IRCTC exclusively for passengers travelling in trains without pantry where passenger can book preferred meal through e-catering website as well as through phone and SMS also. The website address is www.ecatering.irctc.co.in and phone numbers are 1323 and SMS MEAL to 139.<br><br>" +
+                        "E-catering service has been started by IRCTC exclusively for passengers travelling in trains without pantry where passenger can book preferred meal through e-catering website as well as through phone and SMS also. The website address is www.ecatering.irctc.co.in and phone numbers are 1323 and SMS MEAL to 139.<br><br>" +
+                        "<a href src='http://www.ecatering.irctc.co.in/eCatering/'>Website</a><br><br>"+
                         "<strong>How Can I book e-catering service through website?</strong><br>" +
                         "Any passenger having valid confirmed reservation ticket may book the meal through website as well the phone. The trains in which e-catering services are available are also uploaded for information of the passengers. The process of booking is as under: -<br>" +
                         "1. Passenger will enter the PNR. Stations list shall appear/display in drop down menu. Passenger may choose the station he/she wishes to book meal on. After which, vendor menu will open along with item prices.<br>" +
@@ -92,7 +93,8 @@ public class GlobalConstants {
                         1,
                         "What is VIKALP Scheme?",
                         "vikalp",
-                        "• Under Vikalp, wait-listed passengers of a train can opt for confirmed seats on alternate trains.<br>" +
+                        "Under Vikalp, wait-listed passengers of a train can opt for confirmed seats on alternate trains.<br><br>" +
+                        "<strong>Terms and conditions:</strong><br>"+
                         "• No refund will be provided and also no extra money will be charged for difference in fares.<br>" +
                         "• A passenger allotted alternate seat could travel in the alternate train on authority of the original ticket.<br>" +
                         "• Wait-listed passengers of a train will not be allowed to board it if allotted seat on alternate train.<br>" +
@@ -128,7 +130,7 @@ public class GlobalConstants {
                         "6. Wrongly charged by TTE – Original EFT is required<br>" +
                         "7. Party partially travelled Claim (except Rajdhani/Shatabadi/Jan Shatabadi Exp) – TTE Original certificate is required<br>" +
                         "8. Passenger Not travelled – Ticket type in General<br><br>" +
-                        "<strong>NON ELIGIBILITY OF TDR:-</strong><br>" +
+                        "<strong>NON ELIGIBILITY OF TDR:</strong><br>" +
                         "1. Other than Railway Fault<br>" +
                         "2. Confirmed Tatkal ticket if passenger Not travelled<br>" +
                         "3. If cases not received within 30 days from Date of Journey.<br>" +
