@@ -90,7 +90,7 @@ public class GlobalConstants {
         guideList.add(
                 new Guide(
                         1,
-                        "What is VIKALP Schema?",
+                        "What is VIKALP Scheme?",
                         "vikalp",
                         "• Under Vikalp, wait-listed passengers of a train can opt for confirmed seats on alternate trains.<br>" +
                         "• No refund will be provided and also no extra money will be charged for difference in fares.<br>" +
