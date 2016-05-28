@@ -10,16 +10,24 @@ import butterknife.ButterKnife;
 
 /**
  * Created by Ram on 26/05/16.
+ * This is the master activity which contains the basic boilerplate functionality needed by all Activities
  */
 
 public class MasterActivity extends AppCompatActivity implements View.OnClickListener {
 
+    /**
+     * added butterknife injection boilerplate
+     * @param layoutResID
+     */
     @Override
     public void setContentView(@LayoutRes int layoutResID) {
         super.setContentView(layoutResID);
         ButterKnife.inject(this);
     }
 
+    /**
+     * reset butterknife
+     */
     @Override
     protected void onDestroy() {
         super.onDestroy();

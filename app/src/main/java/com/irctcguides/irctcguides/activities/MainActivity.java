@@ -19,13 +19,16 @@ import java.util.List;
 
 import butterknife.InjectView;
 
+/**
+ * This is the launcher activity. This activity hosts a list of guides related to IRCTC.
+ */
 public class MainActivity extends MasterActivity {
 
     @InjectView(R.id.guides_list) RecyclerView guidesRecyclerView;
     @InjectView(R.id.fab) FloatingActionButton fab;
     @InjectView(R.id.toolbar) Toolbar toolbar;
     GuidesAdapter guidesAdapter;
-    int count=0;
+    int dialerClickCount =0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,8 +40,8 @@ public class MainActivity extends MasterActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                count+=1;
-                if(count == 1) {
+                dialerClickCount +=1;
+                if(dialerClickCount == 1) {
                     Snackbar.make(view, "Tap again to contact IRCTC customer care.", Snackbar.LENGTH_LONG)
                             .setAction("Action", null).show();
                     return;
@@ -56,6 +59,10 @@ public class MainActivity extends MasterActivity {
         guidesRecyclerView.setLayoutManager(new LinearLayoutManager(this));
     }
 
+    /**
+     * This method transfers the intent to the phone app
+     * @param phoneNumber the phone number to dial
+     */
     public void dialPhoneNumber(String phoneNumber) {
         Intent intent = new Intent(Intent.ACTION_DIAL);
         intent.setData(Uri.parse("tel:" + phoneNumber));

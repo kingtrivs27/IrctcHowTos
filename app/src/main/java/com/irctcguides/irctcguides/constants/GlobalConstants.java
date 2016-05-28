@@ -72,7 +72,6 @@ public class GlobalConstants {
                         "Order Food through IRCTC while travelling.",
                         "catering",
                         "E-catering service has been started by IRCTC exclusively for passengers travelling in trains without pantry where passenger can book preferred meal through e-catering website as well as through phone and SMS also. The website address is www.ecatering.irctc.co.in and phone numbers are 1323 and SMS MEAL to 139.<br><br>" +
-                        "<a href src='http://www.ecatering.irctc.co.in/eCatering/'>Website</a><br><br>"+
                         "<strong>How Can I book e-catering service through website?</strong><br>" +
                         "Any passenger having valid confirmed reservation ticket may book the meal through website as well the phone. The trains in which e-catering services are available are also uploaded for information of the passengers. The process of booking is as under: -<br>" +
                         "1. Passenger will enter the PNR. Stations list shall appear/display in drop down menu. Passenger may choose the station he/she wishes to book meal on. After which, vendor menu will open along with item prices.<br>" +

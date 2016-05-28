@@ -13,6 +13,9 @@ import com.irctcguides.irctcguides.models.Guide;
 
 import butterknife.InjectView;
 
+/** this activity hs main activity as its parent.
+ * This one shows the details of guide related to IRCTC.
+ */
 public class GuideDetailsActivity extends MasterActivity {
     @InjectView(R.id.guide_details_title) TextView guideTitle;
     @InjectView(R.id.guide_content) TextView guideContent;
@@ -28,10 +31,9 @@ public class GuideDetailsActivity extends MasterActivity {
 
         setTitle("IRCTC - How to..?");
         guideTitle.setText(guide.title);
-
-        guideTitle.setMovementMethod(LinkMovementMethod.getInstance());
         guideContent.setText(Html.fromHtml(guide.content));
 
+        // create the resource using the string present in guide object
         int resourceImage = this.getResources().getIdentifier(guide.image, "drawable", this.getPackageName());
         imgView.setImageResource(resourceImage);
     }
