@@ -30,6 +30,6 @@ IRCTC has recently come up with a lot of reforms and amazing services under the 
 ![TS Image Description](http://i.imgur.com/gZSwHr8.jpg "TS Image Title")
 
 
-**2.)** Details view - this activity hosts the details of the service (also TIPS and STEPS if any).
+**2.)** Details view - this activity hosts the details of an IRCTC service (also TIPS and STEPS if any).
 
 ![TS Image Description](http://i.imgur.com/9M7guiI.jpg "TS Image Title")
