@@ -7,7 +7,7 @@ This app teaches the user of latest services/facilities provided by IRCTC.
 **Idea Definition:**
 5 ways to enjoy your experience with IRCTC
 
-IRCTC has recently come up with a lot of reforms and amazing services under the governance of **Mr. Suresh Prabhu**. This app targets to provide insights into the details around these services and also provides some Tips and Steps to avail a service.
+IRCTC has recently come up with a lot of reforms and amazing services under the governance of **Mr. Suresh Prabhu**. This app targets to provide insights into the details around these services and also provides some tips and steps to avail these services.
 
 **How to run it?**
 - Clone the project.
