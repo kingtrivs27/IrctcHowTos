@@ -27,8 +27,7 @@ public class MainActivity extends MasterActivity {
     @InjectView(R.id.guides_list) RecyclerView guidesRecyclerView;
     @InjectView(R.id.fab) FloatingActionButton fab;
     @InjectView(R.id.toolbar) Toolbar toolbar;
-    GuidesAdapter guidesAdapter;
-    int dialerClickCount =0;
+    int dialerClickCount = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,7 +52,7 @@ public class MainActivity extends MasterActivity {
 
         List<Guide> guidesData = GlobalConstants.getGuidesData();
 
-        guidesAdapter = new GuidesAdapter(guidesData, this);
+        GuidesAdapter guidesAdapter = new GuidesAdapter(guidesData, this);
         guidesRecyclerView.setAdapter(guidesAdapter);
 
         guidesRecyclerView.setLayoutManager(new LinearLayoutManager(this));
